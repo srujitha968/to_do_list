@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <style>
+        body {
+            background-color: peachpuff;
+            margin-top: 50px;
+        }
+        #inp{
+            width:180px;
+            height: 27px;
+        }
+        #bt{
+            width: 100px;
+            height: 40px;
+            cursor: pointer;
+            font-size: larger;
+            border: none;
+            border-radius: 15px;
+            background-color: aqua;
+        }
+        #bt:hover{
+            width: 120px;
+            height: 45px;
+        }
+        #para{
+            font-size: xx-large;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <input type="text" id="inp">
+        <button id="bt" onclick="addlist()">Add List</button>
+        <div id="para"></div>
+    </center>
+    <script src="script.js"></script>
+</body>
+
+</html>
